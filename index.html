@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Fox Tree Coffee is a mobile coffee trailer and Tipsy Fox Bar for markets, private events, parties and community bookings around Ansty and West Sussex." />
+  <title>Fox Tree Coffee | Mobile Coffee Trailer & Bar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;800;900&family=Inter:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Fox Tree Coffee home">
+      <img src="assets/foxtree-logo.svg" alt="Fox Tree Coffee logo" class="brand-logo" />
+      <span class="brand-text">Fox Tree Coffee</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="sr-only">Open menu</span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="#coffee">Coffee</a>
+      <a href="#bar">Tipsy Fox Bar</a>
+      <a href="#events">Recent event</a>
+      <a href="#enquire">Enquire</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <p class="eyebrow">Ansty · West Sussex · Mobile events</p>
+        <h1>Coffee trailer and bar hire for proper countryside events.</h1>
+        <p class="hero-intro">Fox Tree Coffee brings a smart mobile coffee setup, and the Tipsy Fox Bar option, to markets, parties, community events, shoots, races and private bookings.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#enquire">Send an enquiry</a>
+          <a class="button button-secondary" href="#coffee">See what we do</a>
+        </div>
+      </div>
+
+      <div class="hero-card" aria-label="Fox Tree Coffee event services">
+        <div class="hero-card-inner">
+          <p class="card-kicker">Available for</p>
+          <ul>
+            <li>Markets and community events</li>
+            <li>Private parties and celebrations</li>
+            <li>Outdoor events and countryside days</li>
+            <li>Coffee, bar, or both</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="coffee" class="info-grid section-shell">
+      <article class="info-card">
+        <p class="eyebrow">Coffee trailer</p>
+        <h2>Fresh coffee served from a mobile trailer.</h2>
+        <p>Ideal for markets, school events, race days, shoots, parties and outdoor gatherings where you want the setup to look smart and feel easy.</p>
+      </article>
+
+      <article id="bar" class="info-card info-card-accent">
+        <p class="eyebrow">Tipsy Fox Bar</p>
+        <h2>Add a more grown-up drinks setup.</h2>
+        <p>Ask about the bar option for private and social events. Send the date, location and rough guest numbers and Fox Tree can come back with availability.</p>
+      </article>
+    </section>
+
+    <section id="events" class="event-section section-shell" aria-labelledby="event-heading">
+      <div class="event-header">
+        <div>
+          <p class="eyebrow">Recent event</p>
+          <h2 id="event-heading">The Tipsy Fox out in the sun.</h2>
+        </div>
+        <p>Photos and video from a recent countryside event, with the trailer serving coffee, cold drinks and bar options in a relaxed outdoor setting.</p>
+      </div>
+
+      <!-- NEW: Cinematic video hero -->
+      <div class="event-video-hero">
+        <video controls preload="metadata" poster="assets/events/new-event-poster.webp" playsinline>
+          <source src="assets/events/new-event-video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="event-video-caption">
+          <span>The Tipsy Fox Bar · Countryside event · West Sussex</span>
+        </div>
+      </div>
+
+      <!-- NEW: 6-photo masonry grid with new images -->
+      <div class="event-gallery" aria-label="Photos from a recent Fox Tree Coffee event">
+        <figure class="photo-tile photo-tile-tall">
+          <img src="assets/events/new-IMG_2543.webp" loading="lazy" alt="Guests relaxing on the lawn at a recent Fox Tree Coffee event at golden hour." />
+        </figure>
+        <figure class="photo-tile">
+          <img src="assets/events/new-IMG_2536.webp" loading="lazy" alt="The Tipsy Fox trailer serving customers in warm evening light." />
+        </figure>
+        <figure class="photo-tile">
+          <img src="assets/events/new-IMG_2537.webp" loading="lazy" alt="The mobile drinks trailer set up outside next to a dark barn building." />
+        </figure>
+        <figure class="photo-tile photo-tile-wide">
+          <img src="assets/events/new-IMG_2538.webp" loading="lazy" alt="Close-up of the Fox Tree Coffee and Tipsy Fox trailer with menu board and a golden retriever." />
+        </figure>
+        <figure class="photo-tile photo-tile-wide">
+          <img src="assets/events/new-IMG_2540.webp" loading="lazy" alt="Family being served at the Tipsy Fox trailer as the sun sets." />
+        </figure>
+        <figure class="photo-tile">
+          <img src="assets/events/new-IMG_2535.webp" loading="lazy" alt="Wide shot of the event lawn with guests at sunset." />
+        </figure>
+      </div>
+    </section>
+
+    <section class="social-section section-shell" aria-labelledby="social-heading">
+      <div>
+        <p class="eyebrow">Follow along</p>
+        <h2 id="social-heading">See Fox Tree in action.</h2>
+        <p>Watch the reel and see the trailer serving coffee and drinks at events around Ansty and West Sussex.</p>
+      </div>
+
+      <div class="instagram-frame">
+        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DZpRKfNtcCW/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:16px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:0 auto; max-width:540px; min-width:280px; padding:0; width:100%;"></blockquote>
+      </div>
+    </section>
+
+    <section id="enquire" class="booking-section section-shell" aria-labelledby="booking-heading">
+      <div class="booking-copy">
+        <h2 id="booking-heading">Enquire about a booking.</h2>
+        <p>Send the event details and Fox Tree can come back with availability and options.</p>
+
+        <div class="tags" aria-label="Fox Tree Coffee details">
+          <span>Ansty</span>
+          <span>West Sussex</span>
+          <span>Mobile coffee trailer</span>
+          <span>Tipsy Fox Bar</span>
+        </div>
+      </div>
+
+      <form
+        name="booking-enquiry"
+        method="POST"
+        action="/thank-you"
+        accept-charset="UTF-8"
+        data-netlify="true"
+        netlify
+        netlify-honeypot="bot-field"
+        class="booking-form"
+      >
+        <input type="hidden" name="form-name" value="booking-enquiry" />
+        <input type="hidden" name="subject" value="New Fox Tree booking enquiry from foxtreecoffee.co.uk" />
+
+        <p class="hidden-field" aria-hidden="true">
+          <label>Do not fill this out: <input name="bot-field" tabindex="-1" autocomplete="off" /></label>
+        </p>
+
+        <div class="form-grid">
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required />
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+          </div>
+
+          <div class="form-field">
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" />
+          </div>
+
+          <div class="form-field">
+            <label for="event-type">Event type</label>
+            <select id="event-type" name="event_type" required>
+              <option value="Market / community event">Market / community event</option>
+              <option value="Private party">Private party</option>
+              <option value="Wedding">Wedding</option>
+              <option value="Corporate event">Corporate event</option>
+              <option value="Shoot / countryside event">Shoot / countryside event</option>
+              <option value="Race day / outdoor event">Race day / outdoor event</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="event-date">Event date</label>
+            <input id="event-date" name="event_date" type="date" />
+          </div>
+
+          <div class="form-field">
+            <label for="event-location">Event location</label>
+            <input id="event-location" name="event_location" type="text" placeholder="Town / venue" />
+          </div>
+        </div>
+
+        <div class="form-field full-width">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell us guest numbers, timings and whether you need coffee, bar, or both." required></textarea>
+        </div>
+
+        <button class="submit-button" type="submit">Send enquiry</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Fox Tree Coffee</p>
+    <a href="mailto:foxtreecoffee@gmail.com">foxtreecoffee@gmail.com</a>
+  </footer>
+
+  <script async src="//www.instagram.com/embed.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
